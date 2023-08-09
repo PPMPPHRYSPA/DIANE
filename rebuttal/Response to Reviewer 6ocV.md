@@ -2,7 +2,7 @@ We appreciate your valuable comments and constructive suggestions on our manuscr
 
 For your questions in *Methodology*:
 
-- We recognize and appreciate the concern you highlighted in your comments that our 30-day sliding window approach in EHR collection for each patient might overlook the long-term effects among different windows. In fact, integrating the temporal information within the DIANE framework is indeed feasible. Specifically, we treat the parameter matrix $\mathbf{U} = \mathbf{U} (t)$ as time-dependent. In this scenario, we estimate $\widehat {\mathbf{U}(t)}$ for some specific time $t \in \mathcal{T}$ and apply kernel smoothing across the timeframe $\mathcal{T}$ [1,2,3]
+- We recognize and appreciate the concern you highlighted in your comments that our 30-day sliding window approach in EHR collection for each patient might overlook the long-term effects among different windows. In fact, integrating the temporal information within the DIANE framework is indeed feasible. Specifically, we treat the parameter matrix $\mathbf{U} = \mathbf{U} (t)$ as time-dependent. In this scenario, we estimate $\widehat {\mathbf{U}(t)}$ for some specific time $t \in \mathcal{T}$ and apply kernel smoothing across the timeframe $\mathcal{T}$ [1,2,3].
 
 For your questions in *Application*:
 
