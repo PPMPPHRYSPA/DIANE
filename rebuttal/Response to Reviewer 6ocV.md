@@ -14,7 +14,7 @@ For your questions in *Application*:
 We hope that these clarifications adequately address your comments. We are grateful for your feedback, 
 which aids in refining and improving our work.
 
-### Reference
+### References
 
 <div id="refer-anchor-1"></div>
 [1] Edward James Hannan and Laimonis Kavalieris. Regression, autoregression models. Journal of Time Series Analysis, 7(1):27–49, 1986.
