@@ -1,6 +1,6 @@
 Thank you very much for your thorough and insightful comments on our manuscript, which have provided us with valuable perspectives. Below, we outline several key insights and actions we have taken in response to your comments:
 
-- In our most recent experiment, the performance of DIANE is compared with a range of transformer-based benchmark language models, including BERT [<sup>1</sup>](#refer-anchor-1) and its variants [<sup>2</sup>](#refer-anchor-2) [<sup>3</sup>](#refer-anchor-3) [<sup>4</sup>](#refer-anchor-4), focusing on two downstream tasks:
+- In our most recent experiment, the performance of DIANE is compared with a range of transformer-based benchmark language models, including BERT [1] and its variants [2,3,4], focusing on two downstream tasks:
   - Detecting pairs with pre-existing consensus on the relationship of similarity and/or relatedness; See Table 1 in the attachment.
   - Predicting risks for patients in the UPMC database. See Table 2 in the attachment.
 - The performance evaluation for the above tasks is based on ground truth through manual annotation by specialists.
@@ -13,24 +13,20 @@ We believe these changes have strengthened the robustness and contribution of ou
 
 ### References
 
-<div id="refer-anchor-1"></div>
 [1] Jacob Devlin, Ming-Wei Chang, Kenton Lee, and Kristina Toutanova. BERT: pre-training of deep
-bidirectional transformers for language understanding. In Proceedings of the 2019 Conference of the North
+bidirectional transformers for language understanding. In *Proceedings of the 2019 Conference of the North
 American Chapter of the Association for Computational Linguistics: Human Language Technologies,
-NAACL-HLT, pages 4171–4186, 2019.
+NAACL-HLT*, pages 4171–4186, 2019.
 
-<div id="refer-anchor-2"></div>
 [2] Yu Gu, Robert Tinn, Hao Cheng, Michael Lucas, Naoto Usuyama, Xiaodong Liu, Tristan Naumann,
 Jianfeng Gao, and Hoifung Poon. Domain-specific language model pretraining for biomedical natural
-language processing. ACM Transactions on Computing for Healthcare, 3:1–23, 2021.
+language processing. *ACM Transactions on Computing for Healthcare*, 3:1–23, 2021.
 
-<div id="refer-anchor-3"></div>
 [3] Jinhyuk Lee, Wonjin Yoon, Sungdong Kim, Donghyeon Kim, Sunkyu Kim, Chan Ho So, and Jaewoo
 Kang. BioBERT: a pre-trained biomedical language representation model for biomedical text mining.
-Bioinformatics, 36(4):1234–1240, 2020.
+*Bioinformatics*, 36(4):1234–1240, 2020.
 
-<div id="refer-anchor-4"></div>
 [4] Fangyu Liu, Ehsan Shareghi, Zaiqiao Meng, Marco Basaldella, and Nigel Collier. Self-alignment
-pretraining for biomedical entity representations. In Proceedings of the 2021 Conference of the North
-American Chapter of the Association for Computational Linguistics: Human Language Technologies,
+pretraining for biomedical entity representations. In *Proceedings of the 2021 Conference of the North
+American Chapter of the Association for Computational Linguistics: Human Language Technologies*,
 pages 4228–4238, 2021.
