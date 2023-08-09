@@ -13,7 +13,7 @@ We sincerely appreciate your thorough evaluation and valuable feedback on our ma
 
 We believe the changes we made have substantially improved the clarity, rigor, and significance of our study. We hope our revisions address your concerns.
 
-### Reference
+### References
 
 <div id="refer-anchor-1"></div>
 [1] Jacob Devlin, Ming-Wei Chang, Kenton Lee, and Kristina Toutanova. BERT: pre-training of deep
