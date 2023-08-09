@@ -1,7 +1,7 @@
-We are grateful for your insightful comments on the ethics concerns of our work. Here are some additional insights we will include in the updated version of our work.
+We would like to thank you for your careful review of our manuscript and your thoughtful comments.
 
 - **Remedies to Protect Personal Information**: As highlighted, the design of DIANE inherently protects individual privacy by preventing the exposure of personally identifiable information. Several additional measures include ensuring that only non-patient-specific information is shared and maintaining strict adherence to IRB regulations throughout the study.
 - **Legitimacy of Data Storage and Usage**: DIANE only requires a gradient matrix, rather than the raw codified EHR data, to be shared among sites for obtaining non-patient-specific parameters in the model. Furthermore, in a real-data scenario, it is sufficient for the institutes to use the counts of EHR codes recorded for each anonymized patient for a designated time window within their system to provide iterative updates to the parameters of interest. As a result, the institutes can store their possibly sensitive data within their own secure database while making DIANE function effectively.
 - **Data Acquisition and Consent**: Our study strictly used de-identified data in accordance with the NIH IRB regulations. The data we have analyzed in our work is obtained from UPMC (University of Pittsburgh Medical Center), where the patient enrollment process is subject to UPMC regulations, and all enrolled patients are guaranteed to provide informed consent.
 
-We sincerely hope that our response properly addresses your concerns and demonstrates our commitment to conducting research responsibly. We will provide one additional section in the updated version of our work that resonates with the explanations provided here. Thank you once again for your thoughtful feedback.
+We hope that our reply adequately addresses your concerns.
