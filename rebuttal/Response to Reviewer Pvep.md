@@ -25,7 +25,7 @@ To summarize the contents of our response, we will further elaborate on the pote
 We believe that these additional details address the points mentioned in your comments and further 
 demonstrate the validity and significance of our approach.
 
-### Reference
+### References
 
 <div id="refer-anchor-1"></div>
 [1] Jacob Devlin, Ming-Wei Chang, Kenton Lee, and Kristina Toutanova. BERT: pre-training of deep
