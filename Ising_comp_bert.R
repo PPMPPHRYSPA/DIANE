@@ -14,7 +14,7 @@ AUC = get_AUC_embed(U, pairs, WithNull = TRUE,
 
 library(readr)
 AUClist = lapply(c("bert","biobert","pubmedbert","sapbert"), function(x){
-  bert <- read_csv(paste("/n/data1/hsph/biostat/celehs/lab/zig728/PLM/data/processed/embeddings/",x,
+  bert <- read_csv(paste("data/processed/embeddings/",x,
                          "_MEAN_AD_MS_code_desc_0803.csv",sep=""),
                    col_names = FALSE)
   namelist <- bert$X1
@@ -61,7 +61,7 @@ ADMS_p_count <- MS_p_count[match(idx,rownames(MS_p_count)),]
 AD_p_count <- AD_p_count[which(!rownames(AD_p_count)%in%idx),]
 MS_p_count <- MS_p_count[which(!rownames(MS_p_count)%in%idx),]
 
-codelist <- read_csv("/n/data1/hsph/biostat/celehs/lab/zig728/PLM/data/processed/embeddings/bert_MEAN_AD_MS_code_desc_0803.csv",
+codelist <- read_csv("data/processed/embeddings/bert_MEAN_AD_MS_code_desc_0803.csv",
                      col_names = FALSE)
 codelist <- codelist$X1
 codelist <- setdiff(codelist, c("PheCode:290.1","PheCode:335"))
@@ -114,7 +114,7 @@ accu_comp = lapply(c("Ising","bert","biobert","pubmedbert","sapbert"), function(
     bert <- as.matrix(U)
     rm(Theta_new, U, V, delta, t)
   }else{
-    bert <- read_csv(paste("/n/data1/hsph/biostat/celehs/lab/zig728/PLM/data/processed/embeddings/",x,
+    bert <- read_csv(paste("data/processed/embeddings/",x,
                            "_MEAN_AD_MS_code_desc_0803.csv",sep=""),
                      col_names = FALSE)
     namelist <- bert$X1
